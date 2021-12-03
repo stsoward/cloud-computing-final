@@ -1,9 +1,9 @@
 import pyodbc
-server = 'group8-final-project.database.windows.net'
-database = 'group8FinalProjectDB'
-username = 'hanusisw'
-password = 'Group8!!'   
-driver= '{ODBC Driver 17 for SQL Server}'
+server = 'hls8finalproject-server.database.windows.net'
+database = 'hls8database'
+username = 'hls8finalproject-server-admin'
+password = 'Te$t1234'   
+driver= '{ODBC Driver 13 for SQL Server}'
 
 def query(query):
     rows = []
